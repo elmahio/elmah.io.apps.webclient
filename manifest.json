@@ -1,0 +1,39 @@
+{
+	"variables": [{
+		"key": "url",
+		"name": "URL",
+		"description": "The URL to request",
+		"example": "http://mycompany.com",
+		"type": "text",
+		"required": true
+	}, {
+		"key": "method",
+		"name": "Method",
+		"description": "The HTTP method to request with",
+		"type": "select",
+		"values": ["POST", "GET", "PUT", "DELETE"],
+		"default": "POST",
+		"required": true
+	}, {
+		"key": "contentType",
+		"name": "Content Type",
+		"description": "The content type of the request body (if any)",
+		"type": "text"
+	}, {
+		"key": "body",
+		"name": "Body",
+		"description": "The body of the request (if any)",
+		"type": "text"
+	}],
+	"rule": {
+		"title": "HTTP request on all messages",
+		"query": "*",
+		"then": {
+			"type": "http",
+			"url": "$url",
+			"method": "$method",
+			"contentType": "$contentType",
+			"body": "$body"
+		}
+	}
+}

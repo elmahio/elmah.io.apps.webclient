@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>$version$</version>
+    <authors>elmah.io</authors>
+    <owners>elmah.io</owners>
+    <id>elmah.io.apps.webclient</id>
+    <title>WebClient</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Integrate elmah.io with every service providing an API using the WebClient app.</description>
+    <projectUrl>https://github.com/elmahio/elmah.io.apps.webclient</projectUrl>
+    <iconUrl>https://elmah.io/images/appstore/elmah.io.apps.webclient.png</iconUrl>
+    <tags>Error Exception Reporting Management Logging ELMAH Diagnostics Tracing</tags>
+  </metadata>
+  <files>
+    <file src="manifest.json" target="manifest.json" />
+  </files>
+</package>
