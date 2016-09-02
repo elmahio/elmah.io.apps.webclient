@@ -10,7 +10,7 @@
 		"key": "method",
 		"name": "Method",
 		"description": "The HTTP method to request with",
-		"type": "select",
+		"type": "choice",
 		"values": ["POST", "GET", "PUT", "DELETE"],
 		"default": "POST",
 		"required": true
