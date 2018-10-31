@@ -5,9 +5,9 @@
     <authors>elmah.io</authors>
     <owners>elmah.io</owners>
     <id>elmah.io.apps.webclient</id>
-    <title>WebClient</title>
+    <title>WebClient (deprecated)</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Integrate elmah.io with every service providing an API using the WebClient app.</description>
+    <description>Integrate elmah.io with every service providing an API using the WebClient app. Deprecated: use a HTTP rule instead.</description>
     <projectUrl>https://github.com/elmahio/elmah.io.apps.webclient</projectUrl>
     <iconUrl>https://elmah.io/images/appstore/elmah.io.apps.webclient.png</iconUrl>
     <tags>Error Exception Reporting Management Logging ELMAH Diagnostics Tracing</tags>
