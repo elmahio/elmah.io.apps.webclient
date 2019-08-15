@@ -6,6 +6,7 @@
     <owners>elmah.io</owners>
     <id>elmah.io.apps.webclient</id>
     <title>WebClient (deprecated)</title>
+    <license type="expression">Apache-2.0</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Integrate elmah.io with every service providing an API using the WebClient app. Deprecated: use a HTTP rule instead.</description>
     <projectUrl>https://elmah.io/</projectUrl>
